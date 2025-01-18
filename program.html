@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program - Pondok Pesantren XYZ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Add animations */
+    .fadeIn {
+      animation: fadeIn 2s ease-out forwards;
+    }
+
+    .card {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .section-title {
+      animation: fadeIn 2s ease-out forwards;
+    }
+
+    .card-body {
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #f0e68c;
+      transition: color 0.3s ease-in-out;
+    }
+
+    /* Responsive settings */
+    @media (max-width: 767px) {
+      .card {
+        margin-bottom: 20px; /* Add space between cards on small screens */
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Majlis Ta'lim Manbaul Huda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="program.html">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Program Section -->
+  <div class="container py-5">
+    <h2 class="section-title text-center fadeIn">Program Kami</h2>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="card fadeIn">
+          <img src="image/tahfidz.jpeg" class="card-img-top" alt="Program 1">
+          <div class="card-body">
+            <h5 class="card-title">Program Tahfidz</h5>
+            <p class="card-text">Program tahfidz di pesantren bertujuan untuk membimbing santri dalam menghafal dan memahami Al-Qur'an dengan cara yang sistematis dan konsisten. Santri diberi jadwal harian untuk menghafal, mengulang, dan memperbaiki hafalan dengan bimbingan langsung dari pengajar yang berkompeten. Program ini mencakup teknik tajwid yang benar, pemahaman tafsir, serta pembiasaan membaca Al-Qur'an secara tartil. Setiap santri akan diukur kemajuan hafalannya secara berkala, dengan adanya ujian hafalan yang dilakukan secara individu </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card fadeIn">
+          <img src="image/ngaji di rumah.jpeg" class="card-img-top" alt="Program 2">
+          <div class="card-body">
+            <h5 class="card-title">Program Pendidikan Agama</h5>
+            <p class="card-text">Program pendidikan salaf di majlis talim manbaul huda berfokus pada pengajaran kitab-kitab klasik atau salaf yang ditulis oleh ulama-ulama terdahulu, dengan tujuan untuk mendalami ilmu agama secara mendalam sesuai dengan metode tradisional. Program ini mencakup studi atas berbagai disiplin ilmu seperti fiqih, aqidah, tafsir, hadits, dan bahasa Arab klasik, dengan menggunakan kitab-kitab kuning seperti Al-Quduri, Tafsir Ibnu Katsir, Fathul Bari, dan lainnya. Para santri akan belajar secara langsung dengan bimbingan ustaz yang memiliki pemahaman mendalam tentang ilmu-ilmu tersebut, serta diajarkan cara mendiskusikan dan mengkritisi pendapat para ulama salaf. Dalam program ini, para santri juga diajarkan adab dan tata cara belajar yang menghormati ilmu serta guru, dengan tujuan untuk mengembangkan pemahaman yang komprehensif dan bijak terhadap teks-teks agama. .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card fadeIn">
+          <img src="image/pengembangan karakter.jpeg" class="card-img-top" alt="Program 3">
+          <div class="card-body">
+            <h5 class="card-title">Program Pengembangan Karakter</h5>
+            <p class="card-text">Program pengembangan karakter di majlis talim manbaul huda bertujuan untuk membentuk akhlak dan kepribadian santri yang luhur berdasarkan ajaran Islam. Melalui kegiatan-kegiatan seperti pembelajaran tentang akhlak Nabi Muhammad SAW, diskusi hadits dan kisah-kisah teladan, serta pembiasaan nilai-nilai kebaikan dalam kehidupan sehari-hari, santri diajarkan untuk mengembangkan sifat-sifat seperti jujur, sabar, rendah hati, tanggung jawab, dan kasih sayang. Program ini juga mencakup kegiatan seperti gotong royong, menjaga kebersihan lingkungan pesantren, serta mempererat persaudaraan antar sesama santri, yang mengajarkan pentingnya hidup dalam kerukunan dan saling tolong-menolong. Selain itu, program ini melibatkan pengembangan kepemimpinan dengan memberi kesempatan kepada santri untuk memimpin kelompok kecil, bertanggung jawab dalam tugas tertentu, dan menjadi teladan bagi teman-temannya. Dengan pendekatan ini, diharapkan santri dapat tumbuh menjadi individu yang tidak hanya cerdas dalam ilmu agama tetapi juga memiliki akhlak yang mulia dan mampu berkontribusi positif dalam masyarakat..</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card fadeIn">
+            <img src="image/pawai.jpeg" class="card-img-top" alt="Program 3">
+            <div class="card-body">
+              <h5 class="card-title">Program Pawai Taaruf</h5>
+              <p class="card-text">Program pawai taaruf di majlis talim manbaul huda merupakan kegiatan perkenalan yang bertujuan untuk mempererat silaturahmi antara santri, pengajar, dan masyarakat sekitar sekaligus memperkenalkan pesantren kepada publik. Kegiatan ini biasanya diadakan pada awal tahun ajaran baru atau saat menyambut acara besar, seperti peringatan hari besar Islam atau pembukaan pesantren. Pawai dilakukan dengan berjalan bersama sambil membawa spanduk, bendera, atau atribut pesantren yang mencerminkan semangat keislaman, seperti tulisan motivasi, kaligrafi, atau syiar dakwah. Para santri mengenakan busana muslim seragam, diiringi lantunan nasyid atau shalawat untuk menciptakan suasana meriah dan penuh berkah. Selain memperkenalkan identitas pesantren, kegiatan ini juga menjadi sarana pembelajaran bagi santri dalam menumbuhkan rasa percaya diri, kekompakan, dan semangat berkontribusi positif di tengah masyarakat. Pawai taaruf memperkuat ukhuwah Islamiyah dan menumbuhkan kebanggaan terhadap pesantren sebagai pusat pendidikan dan dakwah.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card fadeIn">
+            <img src="image/haflah.jpeg" class="card-img-top" alt="Program 3">
+            <div class="card-body">
+              <h5 class="card-title">Program Haflah Akhirussanah</h5>
+              <p class="card-text">Haflah Akhirussanah adalah program tahunan yang diselenggarakan di majlis talim manbaul huda sebagai acara puncak untuk menutup tahun ajaran dan merayakan pencapaian santri dalam pembelajaran. Program ini menjadi momen refleksi atas hasil pendidikan yang telah dijalani, sekaligus bentuk apresiasi terhadap usaha santri dan dukungan dari para guru serta wali santri. Kegiatan Haflah Akhirussanah biasanya mencakup penampilan hafalan Al-Qur'an, pembacaan pidato dan karya tulis santri, pertunjukan seni Islami seperti qasidah dan nasyid, serta penyerahan penghargaan untuk santri berprestasi dalam bidang akademik dan non-akademik. Acara juga dilengkapi dengan ceramah agama yang memberikan motivasi dan nasihat untuk terus belajar dan berbuat kebaikan. Haflah ini mempererat tali silaturahmi antaranggota pesantren dan masyarakat sekitar, sekaligus menjadi sarana syiar Islam. Dengan suasana penuh khidmat dan kebersamaan, Haflah Akhirussanah mencerminkan keberhasilan program pendidikan yang holistik dan memberikan inspirasi untuk perjalanan akademik yang lebih baik di masa mendatang.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card fadeIn">
+          <img src="image/rytinitas maljuum.jpeg" class="card-img-top" alt="Program 3">
+          <div class="card-body">
+            <h5 class="card-title">Program Rutinitas Malam Jumat</h5>
+            <p class="card-text"> kegiatan keagamaan yang rutin dilakukan untuk memperkuat spiritualitas dan memperbanyak amalan sunnah di malam yang penuh keberkahan. Kegiatan ini dimulai dengan shalat Maghrib berjamaah, dilanjutkan dengan pembacaan Surah Yasin secara bersama-sama sebagai bentuk dzikir dan doa kepada Allah SWT. Setelah itu, para santri biasanya mengikuti majelis ilmu yang diisi dengan kajian hadits, tafsir, atau nasihat keagamaan yang relevan dengan kehidupan sehari-hari. Dzikir dan shalawat kepada Nabi Muhammad SAW juga sering menjadi bagian dari kegiatan, memberikan suasana yang penuh ketenangan dan cinta kepada Rasulullah. Acara diakhiri dengan doa bersama untuk memohon keberkahan, keselamatan, dan kebaikan untuk umat Islam. Program ini bertujuan untuk mempererat hubungan santri dengan Allah SWT, membiasakan mereka dengan amalan sunnah, serta menumbuhkan kecintaan terhadap ilmu dan ibadah dalam suasana yang khusyuk dan penuh kebersamaan.
+
+
+
+
+
+
+
+              .</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

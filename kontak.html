@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Pondok Pesantren XYZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Flexbox layout for the body to push footer to the bottom */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #f0e68c;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Ensure buttons are responsive */
+        .btn {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        /* Center the content on smaller screens */
+        .container {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        /* Custom styling for button spacing */
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* Ensuring the footer stays at the bottom */
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Majlis Ta'lim Manbaul Huda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Kontak Section -->
+    <div class="container py-5 content">
+        <h2 class="text-center">Kontak Kami</h2>
+        <p class="text-center">Ikuti kami atau hubungi kami melalui platform berikut:</p>
+
+        <div class="btn-group mt-4">
+            <a href="https://facebook.com/zulfaafone" class="btn btn-primary" target="_blank">Facebook</a>
+            <a href="https://instagram.com/zulfaafone" class="btn btn-danger" target="_blank">Instagram</a>
+            <a href="https://wa.me/6285786213086" class="btn btn-success" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Majlis Ta'lim Manbaul Huda. Semua Hak Dilindungi</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
